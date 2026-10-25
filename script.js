@@ -14,6 +14,10 @@ document.getElementById("submit-name").addEventListener("click", () => {
         result.innerHTML = 'Your destined lover is: Yamal!';
     } else if (name === "dion") {
         result.innerHTML = 'Your destined lover is: Christian Dior!'; 
+    } else if (name === "alexis") {
+        result.innerHTML = 'Your destined lover is: Andre!'; 
+    } else if (name === "gab") {
+        result.innerHTML = 'Your destined lover is: um sorry i forgot ur gf\'s name..'; 
     } else {
         result.textContent = "Your destined lover is: You don't have one LMFAO";
     }
